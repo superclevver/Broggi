@@ -1,0 +1,170 @@
+#aboutTitle{
+    align-content: center;
+    text-align: center;
+    top: 0%;
+    padding-top: 50px;
+    margin: 0px;
+    color: #26262a !important;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.125;
+    word-break: break-word;
+    font-family: 'ExoNoItalic';
+    letter-spacing: 3px;
+}
+
+#subtitleAbout{
+    align-content: center;
+    text-align: center;
+    top: 0%;
+    padding: 20px 250px;
+    margin: 0px;
+    /* background: #e4e4e4; */
+    font-family: "europa",sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #000000;
+    font-size: 1.25rem;
+
+}
+
+.col-sm{
+    text-align: center;
+}
+
+.container2 h3 h4 h5 p{
+    float: left;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.container2 h3{
+    color: #37c;
+    font-family: 'ExoNoItalic';
+    letter-spacing: 1px;
+}
+
+.container2 h4{
+    color: #5E9516;
+    font-family: 'ExoNoItalic';
+    letter-spacing: 1px;
+}
+
+.container2 h5{
+    color: #50555C;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+
+#habilitiess{
+    padding-bottom: 100px;
+}
+.container2 p{
+    color: #50555C;
+    font-family: 'ExoText';
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.container2{
+    margin-top: 10px;
+}
+
+#titsq{
+    font-family: 'ExoNoItalic';
+}
+
+/* #habilities img{
+    height: 100px;
+    width: 100px;
+} */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+  }
+
+  .grid-container > div > img{
+    height: 75px;
+    width: 75px;
+  }
+
+  #textImg{
+      text-align: center;
+      align-content: center;
+      margin-bottom: 15px;
+      margin-top: 30px;
+      font-family: 'ExoText';
+      font-size: 20px;
+      font-weight: bold;
+  }
+
+  @media (max-width: 480px){
+    #teamwork{
+        height: 150px !important;
+        width: 300px !important;
+    }
+
+    #problemSolving{
+        height: 150px !important;
+        width: 300px !important;
+    }
+
+    #motivation{
+        margin-left: 0 !important;
+    }
+
+    #feedback{
+        margin-left: 0 !important;
+        height: 150px !important;
+        width: 320px !important;
+    }
+
+    /* Studies */
+    .desc > p {
+         padding-right: 0 !important;
+        text-align: justify;
+    }
+
+    .container2 h3 {
+        color: #37c;
+        font-family: 'ExoNoItalic';
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .container2 h4 {
+        color: #5E9516;
+        font-family: 'ExoNoItalic';
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .ong{
+        margin-right: 50px !important;
+    }
+
+  }
+
+
+  #intro{
+    font-family: 'ExoText';
+    font-size: 14pt;
+    padding-bottom: 40px;
+    text-align: justify;
+  }

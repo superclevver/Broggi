@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.titleComponent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    width: 20%;
+    background-color: #4d9fab;
+    color: white;
+}
+
+.contingut {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxLeftRight {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+}
+
+.boxLeft {
+    display: flex;
+    width: 50%;
+    margin: 2rem;
+    margin-right: 0rem;
+    border: 1px solid rgba(0,0,0,0.125);
+    background-color: #FFFFFF;
+}
+
+.boxRight {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    margin: 2rem;
+    border: 1px solid rgba(0,0,0,0.125);
+    background-color: #FFFFFF;
+}
+
+.boxVideosGene {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    margin-top: 0rem;
+    border: 1px solid rgba(0,0,0,0.125);
+    background-color: #FFFFFF;
+}
+
+.titlePreguntas, .titleCFA, .titleGene {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.3rem;
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+.bodyPreguntas {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin-right: 2.5rem;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 2rem 0rem;
+}
+
+.bandera_idioma {
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+
+.pregunta_idioma {
+    margin-bottom: 0.5rem;
+}
+
+.pregunta {
+    font-weight: bold;
+}
+
+.btnWordBank {
+    display: flex;
+    position: fixed;
+    overflow: hidden;
+    z-index: 999;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #4d9fab;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 0;
+    right: 2rem;
+    bottom: 2rem;
+}
+
+.btnWordBank:hover, .btnWordBank:active, .btnWordBank:focus {
+    border: 1px solid #4d9fab !important;
+    background-color: white !important;
+    color: #4d9fab !important;
+}
+
+.paraulaWB {
+    margin-bottom: 0.5rem;
+}
+
+.listaPalabra {
+    background-color: white !important;
+}
+
+#modalWordBank .modal-body {
+    background-color: #F8FAFC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.videoCFA {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0rem 2rem 3rem 2rem;
+}
+
+.boxTitleTextCFA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.titleTextCFA {
+    display: flex;
+    font-weight: bold;
+}
+
+.textCFA {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.bodyGene {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.videoGene {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 0rem 2rem 3rem 2rem;
+}
+
+.boxTitleTextGene {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.titleTextGene {
+    display: flex;
+    font-weight: bold;
+}
+
+.textGene {
+    display: flex;
+    text-align: justify;
+    margin-top: 1rem;
+}
